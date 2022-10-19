@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 43px;
+    background-color: #171A21;
+}
+nav ul {
+    list-style: none;
+    align-self: center;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    width: 56px;
+    height: 14px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #E0ECFF;
+}
+nav ul > .li-1{
+    padding: 0 40px;
+}
+nav ul > .li-2{
+    padding: 0 30px;
+}
+nav ul > .li-3{
+    padding: 0 10px;
+}
+.Line{
+    display: inline;
+    width: 30px;
+    height: 0px;
+    border: 2px solid #363A44;
+    transform: rotate(90deg);
+}

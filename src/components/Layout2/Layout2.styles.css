@@ -1,0 +1,54 @@
+.Layout2 > h1{
+    color: #FFFFFF;
+    max-width: 700px;
+    max-height: 120px;
+    position: absolute;
+    top: 110px;
+    right: 320px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+}
+.image-container{
+    position: absolute;
+    width: 750px;
+    height: 500px;
+    left: 260px;
+    top: 349px;
+}
+.kurshana-Logo{
+    position: absolute;
+    left: 50px;
+    top: 60px;
+}
+.btn{
+   position: absolute;
+    padding: 12px 11px;
+    width: 150px;
+    height: 50px;
+    background: #0070E7;
+    border-radius: 12px;
+    top: 900px;
+    right:550px;
+}
+.contact-btn{
+    width: 137px;
+    height: 52px;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    background: #0070E7;
+    border-radius: 12px;
+}
+
+@media screen and (min-width :1300px) and (max-width :1440px){
+    .image-container{
+        left: 345px;
+    }
+    .btn{
+        right:600px;
+    }
+}
